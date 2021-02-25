@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './Books/App.jsx'
-import Props from './Props/Props.jsx'
-import UseState from './useState/UseState.jsx'
+// import App from './Books/App.jsx';
+// import Props from './Props/Props.jsx';
+// import UseState from './useState/UseState.jsx';
+import UseEffect from './useEffect/UseEffect.jsx';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseState />
+    <UseEffect />
   </React.StrictMode>,
   document.getElementById('root')
 );
